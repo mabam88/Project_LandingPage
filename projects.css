@@ -1,0 +1,212 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container-1{
+    width: 1200px;
+    margin: 0 auto;
+    /* margin-top: 2px; */
+    overflow: hidden;
+}
+
+.container-1 .header{
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    border-bottom: solid 1px antiquewhite;
+    overflow: hidden;
+}
+
+.container-1 .header img{
+    float: left;
+    margin: 5px 0 0 5px;
+    width: 150px;
+    height: 40px;
+}
+
+.header form{
+    float: right;
+    margin: 10px 5px 20px 0px;
+    
+}
+
+.header form input{
+    height: 25px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.container-2 {
+    width: 1200px;
+    height: 40px;
+    /* margin-top: 2px; */
+    background-color: brown;
+    overflow: hidden;
+}
+
+.container-2 .menu-utama{
+    float:left;
+    list-style: none;
+    padding: 5px 0 0 2px;
+ 
+    
+}
+
+.container-2 .menu-utama li{
+    float: left;
+    padding: 5px 10px;
+    /* border: solid 1px white; */
+}
+
+.container-2 .menu-utama li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.container-2 .menu-utama li a:hover{
+    color: black;
+    border-radius: 5px;
+    font-style: italic;
+    text-decoration: underline;  
+}
+
+
+
+.daftar-content{
+    width: 600px;
+    float: left;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    /* overflow: hidden; */
+      
+}
+
+.daftar-content #content{
+    background-color: wheat;
+    padding: 10px 2px 0px 2px;
+    margin: 10px 10px 5px 0px;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: transparent;
+    overflow: hidden;
+}
+
+.daftar-content #content img{
+    float: left;
+    width: 105px;
+    height: 110px;
+    margin: 10px 10px 10px 0px;
+    padding: 15px ;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+}
+
+.daftar-content #content h1{
+    color: black;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large
+}
+
+.daftar-content #content b{
+    color: azure;
+    background-color: brown;
+    padding: 2px 5px 2px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.daftar-content #content p{
+    color: black;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.daftar-content #content a{
+    float:right;
+    margin: 15px 15px 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.sidebar{
+    margin-top: 10px;
+
+    
+}
+
+.sidebar h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.sidebar p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px 200px 0 20px;
+    margin-bottom: 5px;
+}
+
+.sidebar #daftar-lainnya ul li{
+    list-style: circle;
+    list-style-position: inside;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.sidebar h3{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.sidebar ul li{
+    list-style: circle;
+    list-style-position: inside;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.sidebar h4{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.sidebar p i{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    
+}
+
+.footer p{
+    clear: both;
+    text-align: center;
+    background-color: brown;
+    padding: 7px 0 7px 0;
+    color: azure;
+    width: 1200px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
